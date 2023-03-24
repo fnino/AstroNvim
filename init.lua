@@ -1,3 +1,5 @@
+vim.g.python3_host_prog = "/Users/nino/anaconda3/envs/py39/bin/python"
+
 return {
   -- Configure AstroNvim updates
   updater = {
@@ -18,7 +20,13 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "astrodark",
+  -- colorscheme = "astrodark",
+  colorscheme = "catppuccin",
+    plugins = {
+		  init = {
+		  	"catppuccin/nvim",
+      }
+    },
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
