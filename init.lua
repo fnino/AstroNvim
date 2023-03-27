@@ -22,11 +22,9 @@ return {
   -- Set colorscheme to use
   -- colorscheme = "astrodark",
   colorscheme = "catppuccin",
-    plugins = {
-		  init = {
-		  	"catppuccin/nvim",
-      }
-    },
+  plugins = {
+  	  init = { },
+  },
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
